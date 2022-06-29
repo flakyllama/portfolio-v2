@@ -1,8 +1,14 @@
 @import 'colors';
 @import 'fonts/fonts';
+@import 'components/btn';
 
 html {
     background-color: $n0;
     color: $n5;
     font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+p {
+    margin: 0;
+    font-weight: 300;
 }

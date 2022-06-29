@@ -13,6 +13,77 @@
   // min-height: 100vh;
   // height: 100%;
 
+  .main{
+
+    .bio {
+      margin-bottom: 120px;
+
+      .bio-content{
+        margin-top: 32px;
+        max-width: 480px;
+
+        .bio-header {
+          font-size: 18px;
+          line-height: 26px;
+          font-weight: 500;
+          color: $n5;
+
+          .bio-header-gradient {
+            font-weight: 600;
+            background: $gradient;
+            background-clip: text;
+            -webkit-background-clip: text;
+            text-fill-color: transparent;
+            -webkit-text-fill-color: transparent;
+          }
+        }
+
+        .bio-description {
+          margin-top: 16px;
+          font-size: 16px;
+          line-height: 28px;
+          color: $n4;
+        }
+      }
+    }
+
+    .projects {
+
+      .section-title{
+        font-size: 18px;
+        line-height: 26px;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+      }
+
+      .project-container {
+        display: grid;
+        gap: 64px;
+        margin-top: 64px;
+
+        .project {
+
+          .project-content{
+            display: grid;
+            gap: 16px;
+            max-width: 480px;
+            font-size: 16px;
+            line-height: 28px;
+
+            .link-btn {
+              left: -8px;
+              margin-bottom: 16px;
+            }
+            
+            .project-description {
+              color: $n4;
+            }
+          }
+        }
+      }
+    }
+  }
+
   .footer {
     align-self: flex-end;
     display: grid;
