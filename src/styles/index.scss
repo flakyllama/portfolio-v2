@@ -1,1 +1,35 @@
-@import 'fonts/fonts';
+@import 'global';
+
+.inner {
+  position: relative;
+  display: grid;
+  grid-template-columns: 604px 520px;
+  box-sizing: border-box;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  margin: 0px auto;
+  padding: 80px 0;
+  max-width: 1240px;
+  // min-height: 100vh;
+  // height: 100%;
+
+  .footer {
+    align-self: flex-end;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 24px;
+    height: max-content;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    align-items: center;
+    position: sticky;
+    bottom: 64px;
+
+    .divider-inline-v {
+    width: 2px;
+    height: 16px;
+    border-radius: 50px;
+    background: $n1;
+    }
+  }
+}
