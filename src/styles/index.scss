@@ -3,7 +3,7 @@
 .inner {
   position: relative;
   display: grid;
-  grid-template-columns: 604px 520px;
+  grid-template-columns: 620px 520px;
   box-sizing: border-box;
   -webkit-box-pack: justify;
   justify-content: space-between;
@@ -54,12 +54,13 @@
         line-height: 26px;
         letter-spacing: 1.5px;
         text-transform: uppercase;
+        color: $n6;
       }
 
       .project-container {
         display: grid;
-        gap: 64px;
-        margin-top: 64px;
+        gap: 48px;
+        margin-top: 48px;
 
         .project {
 
@@ -142,6 +143,14 @@
               }
             }
           }
+
+          .project-mockup {
+            margin-top: 32px;
+            width: 620px;
+            height: 303px;
+            border-radius: 8px;
+            outline: $n2 solid 2px;
+          }
         }
       }
     }
@@ -163,7 +172,7 @@
       display: grid;
       grid-template-columns: repeat(2, auto);
       align-items: center;
-      color: $n4;
+      color: $n5;
 
       .suffix-icon {
         margin-left: 8px;

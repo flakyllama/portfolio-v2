@@ -14,6 +14,7 @@ import VictorLeipnik from '../images/avatars/sobol/victor-leipnik.png'
 import DamianSarzynski from '../images/avatars/sobol/damian-sarzynski.png'
 import VladKutsenko from '../images/avatars/sobol/vlad-kutsenko.png'
 import LeifDejong from '../images/avatars/sobol/leif-dejong.png'
+import SobolMockup from '../images/projects/sobol.png'
 
 
 export {
@@ -21,9 +22,11 @@ export {
     ArrowUpRightGradient,
     WavingHand,
     Avatar,
+    // Sobo
     BryanPeters,
     VictorLeipnik,
     DamianSarzynski,
     VladKutsenko,
-    LeifDejong
+    LeifDejong,
+    SobolMockup
   };

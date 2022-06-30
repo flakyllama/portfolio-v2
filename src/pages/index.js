@@ -10,7 +10,8 @@ import {
   VictorLeipnik,
   DamianSarzynski,
   VladKutsenko,
-  LeifDejong
+  LeifDejong,
+  SobolMockup
 } from '../images/index.js'
 
 const Landing = () => (
@@ -38,7 +39,7 @@ const Landing = () => (
                   Sobol <img className="suffix-icon" src={ArrowUpRightGradient} />
                 </a>
                 <p className="project-header">
-                  Sobol is building a platform for DAOs to use in managing their community, data and operations.
+                  Sobol is building a platform for DAOs to use in managing their data, operations and community.
                 </p>
                 <p className="project-description">
                   As a solo designer, I work  with the product team to deliver value to users, while improving on aesthetics and functionality.
@@ -91,6 +92,9 @@ const Landing = () => (
                     <img className="suffix-icon" src={ArrowUpRightGradient} />
                   </div>
                 </a> 
+              </div>
+              <div>
+                <img className="project-mockup" src={SobolMockup} />
               </div>
             </div>
           </div>
