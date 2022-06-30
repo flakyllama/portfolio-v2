@@ -92,7 +92,6 @@
               line-height: 24px;
               letter-spacing: 1.5px;
               text-transform: uppercase;
-              color: $n4;
             }
 
             .project-team-member {
@@ -116,6 +115,7 @@
                 grid-template-columns: auto auto auto auto;
                 gap: 8px;
                 align-items: center;
+                color: $n4;
 
                 .divider-inline-h-round {
                   height: 4px;
@@ -123,22 +123,17 @@
                   border-radius: 50px;
                   background: $n2;
                 }
-
-                .project-team-member-details-role {
-                  color: $n4;
-                }
               }
 
               &:hover {
                 background: rgba(255,255,255,0.05);
-                color: $n6;
 
-                .project-team-member-details-role {
+                .project-team-member-details {
                   color: $n6
                 }
               }
 
-              &:visited, &:active {
+              &:link, &:visited, &:active {
                 color: inherit;
               }
             }
