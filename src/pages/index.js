@@ -16,10 +16,14 @@ import {
 
 const Landing = () => (
   <>
+  <head>
+    <title>Fardeen Chowdhury - Product Designer</title>
+  </head>
+  <body>
     <div className="inner">
       <div className="main">
         <div className="bio">
-          <img className="bio-avatar" src={Avatar} />
+          <img className="bio-avatar" src={Avatar} alt="Fardeen Chowdury's avatar"/>
           <div className="bio-content"> 
             <span className="bio-header">
               Hey! I&#39;m <span className="bio-header-gradient">Fardeen Chowdhury</span>.
@@ -35,8 +39,8 @@ const Landing = () => (
           <div className="project-container">
             <div className="project">
               <div className="project-content">
-                <a className="link-btn">
-                  Sobol <img className="suffix-icon" src={ArrowUpRightGradient} />
+                <a className="link-btn" href="https://www.sobol.io">
+                  Sobol <img className="suffix-icon" src={ArrowUpRightGradient} alt="Arrow up right"/>
                 </a>
                 <p className="project-header">
                   Sobol is building a platform for DAOs to use in managing their data, operations and community.
@@ -48,53 +52,53 @@ const Landing = () => (
               <div className="project-team">
                 <span className="project-team-label">TEAM</span>
                 <a className="project-team-member" href="https://www.linkedin.com/in/bryan-peters-3125373/" target="_blank" rel="noreferrer">
-                  <img className="project-team-member-avatar" src={BryanPeters} />
+                  <img className="project-team-member-avatar" src={BryanPeters} alt="Bryan Peters' avatar" />
                   <div className="project-team-member-details">
                     <span>Bryan Peters</span>
                     <div className="divider-inline-h-round" />
                     <span className="project-team-member-details-role">Co-founder / Product Manager</span>
-                    <img className="suffix-icon" src={ArrowUpRightGradient} />
+                    <img className="suffix-icon" src={ArrowUpRightGradient} alt="Arrow up right" />
                   </div>
                 </a>
                 <a className="project-team-member" href="https://www.linkedin.com/in/victor-leipnik-2515352" target="_blank" rel="noreferrer">
-                  <img className="project-team-member-avatar" src={VictorLeipnik} />
+                  <img className="project-team-member-avatar" src={VictorLeipnik} alt="Victor Leipnik's avatar"/>
                   <div className="project-team-member-details">
                     <span>Victor Leipnik</span>
                     <div className="divider-inline-h-round" />
                     <span className="project-team-member-details-role">Co-founder / Tech Lead</span>
-                    <img className="suffix-icon" src={ArrowUpRightGradient} />
+                    <img className="suffix-icon" src={ArrowUpRightGradient} alt="Arrow up right" />
                   </div>
                 </a> 
                 <a className="project-team-member" href="https://www.linkedin.com/in/dsarzynski/" target="_blank" rel="noreferrer">
-                  <img className="project-team-member-avatar" src={DamianSarzynski} />
+                  <img className="project-team-member-avatar" src={DamianSarzynski} alt="Damian Sarzynski's avatar"/>
                   <div className="project-team-member-details">
                     <span>Damian Sarzynski</span>
                     <div className="divider-inline-h-round" />
                     <span className="project-team-member-details-role">Product Manager</span>
-                    <img className="suffix-icon" src={ArrowUpRightGradient} />
+                    <img className="suffix-icon" src={ArrowUpRightGradient} alt="Arrow up right" />
                   </div>
                 </a> 
                 <a className="project-team-member" href="https://www.linkedin.com/in/vlad-kutsenko-80994316/" target="_blank" rel="noreferrer">
-                  <img className="project-team-member-avatar" src={VladKutsenko} />
+                  <img className="project-team-member-avatar" src={VladKutsenko} alt="Vlad Kutsenko's avatar" />
                   <div className="project-team-member-details">
                     <span>Vlad Kutsenko</span>
                     <div className="divider-inline-h-round" />
                     <span className="project-team-member-details-role">Senior Engineer</span>
-                    <img className="suffix-icon" src={ArrowUpRightGradient} />
+                    <img className="suffix-icon" src={ArrowUpRightGradient} alt="Arrow up right" />
                   </div>
                 </a> 
                 <a className="project-team-member" href="https://www.linkedin.com/in/leifdejong/" target="_blank" rel="noreferrer">
-                  <img className="project-team-member-avatar" src={LeifDejong} />
+                  <img className="project-team-member-avatar" src={LeifDejong} alt="Leif Dejong's avatar"/>
                   <div className="project-team-member-details">
                     <span>Leif Dejong</span>
                     <div className="divider-inline-h-round" />
                     <span className="project-team-member-details-role">Full-stack Engineer</span>
-                    <img className="suffix-icon" src={ArrowUpRightGradient} />
+                    <img className="suffix-icon" src={ArrowUpRightGradient} alt="Arrow up right" />
                   </div>
                 </a> 
               </div>
               <div>
-                <img className="project-mockup" src={SobolMockup} />
+                <img className="project-mockup" src={SobolMockup} alt="Sobol mockup"/>
               </div>
             </div>
           </div>
@@ -108,17 +112,18 @@ const Landing = () => (
           <span>
             Resume
           </span>
-          <img className="suffix-icon" src={ArrowUpRightNeutral} />
+          <img className="suffix-icon" src={ArrowUpRightNeutral} alt="Arrow up right"/>
         </a>
         <div className="divider-inline-h-rect" />
         <a className="nav-link email-address">
-          <img className="prefix-icon" src={WavingHand} />
+          <img className="prefix-icon" src={WavingHand} alt="Waving hand emoji" />
           <span>
             fardeen.h.chowdhury@gmail.com
           </span>
         </a>
       </footer>
       </div>
+    </body>
   </>
 )
 
