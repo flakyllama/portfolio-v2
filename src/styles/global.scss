@@ -4,11 +4,15 @@
 
 html {
     background-color: $n0;
-    color: $n5;
+    color: $n6;
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 p {
     margin: 0;
     font-weight: 300;
+}
+
+a {
+    transition: all 0.2s linear;
 }
