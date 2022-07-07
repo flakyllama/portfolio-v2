@@ -21,6 +21,14 @@ import ChrisTran from '../images/avatars/prospr/chris-tran.webp'
 import NathanKnight from '../images/avatars/prospr/nathan-knight.webp'
 import WilliamNippard from '../images/avatars/prospr/william-nippard.webp'
 
+// Arctic Labs
+import MatthewHam from '../images/avatars/arctic-labs/matthew-ham.webp'
+import EricRabiner from '../images/avatars/arctic-labs/eric-rabiner.webp'
+import BrianQuach from '../images/avatars/arctic-labs/brian-quach.webp'
+import NaomiLiu from '../images/avatars/arctic-labs/naomi-liu.webp'
+import LeoZhu from '../images/avatars/arctic-labs/leo-zhu.webp'
+import KirbyWoo from '../images/avatars/arctic-labs/kirby-woo.webp'
+
 
 export {
     ArrowUpRightNeutral,
@@ -36,5 +44,11 @@ export {
     SobolMockup,
     ChrisTran,
     NathanKnight,
-    WilliamNippard
+    WilliamNippard,
+    MatthewHam,
+    EricRabiner,
+    BrianQuach,
+    NaomiLiu,
+    LeoZhu,
+    KirbyWoo
   };

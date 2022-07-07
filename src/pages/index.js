@@ -14,7 +14,13 @@ import {
   SobolMockup,
   NathanKnight,
   ChrisTran,
-  WilliamNippard
+  WilliamNippard,
+  KirbyWoo,
+  LeoZhu,
+  EricRabiner,
+  MatthewHam,
+  NaomiLiu,
+  BrianQuach
 } from '../images/index.js'
 
 const Landing = () => (
@@ -46,7 +52,7 @@ const Landing = () => (
               <div title="Sobol" className="project">
                 <div className="project-content">
                   <div className="project-chips">
-                    <a className="link-btn" href="https://www.sobol.io">
+                    <a className="link-btn" href="https://www.sobol.io" target="_blank" rel="noreferrer">
                       Sobol <img className="suffix-icon" src={ArrowUpRightGradient} alt="Arrow up right"/>
                     </a>
                     <div className="divider-inline-h-round" />
@@ -113,7 +119,7 @@ const Landing = () => (
               <div title="Prospr" className="project">
                 <div className="project-content">
                   <div className="project-chips">
-                    <a className="link-btn" href="https://www.prospr.cc">
+                    <a className="link-btn" href="https://www.prospr.cc" target="_blank" rel="noreferrer">
                       Prospr <img className="suffix-icon" src={ArrowUpRightGradient} alt="Arrow up right"/>
                     </a>
                     <div className="divider-inline-h-round" />
@@ -152,6 +158,82 @@ const Landing = () => (
                       <span>William Nippard</span>
                       <div className="divider-inline-h-round" />
                       <span className="project-team-member-details-role">Full-stack Engineer</span>
+                      <img className="suffix-icon" src={ArrowUpRightGradient} alt="Arrow up right" />
+                    </div>
+                  </a> 
+                </div>
+                <img className="project-mockup" src={SobolMockup} alt="Sobol mockup"/>
+              </div>
+              <div className="project-divider" />
+              <div title="Arctic Labs" className="project">
+                <div className="project-content">
+                  <div className="project-chips">
+                    <a className="link-btn" href="https://arcticlabs.ca/" target="_blank" rel="noreferrer">
+                      Arctic Labs <img className="suffix-icon" src={ArrowUpRightGradient} alt="Arrow up right"/>
+                    </a>
+                    <div className="divider-inline-h-round" />
+                    <div className="tag arctic-labs">Dev Shop</div>
+                  </div>
+                  <p className="project-header">
+                    It suddenly struck me that that tiny pea, pretty and blue, was the Earth. I put up my thumb and shut one eye, and my thumb blotted out the planet Earth.
+                  </p>
+                  <p className="project-description">
+                    Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next 10.
+                  </p>
+                </div>
+                <div className="project-team">
+                  <span className="project-team-label">TEAM</span>
+                  <a className="project-team-member" href="https://www.linkedin.com/in/matthewninja/" target="_blank" rel="noreferrer">
+                    <img className="project-team-member-avatar" src={MatthewHam} alt="Matthew Ham's avatar" />
+                    <div className="project-team-member-details">
+                      <span>Matthew Ham</span>
+                      <div className="divider-inline-h-round" />
+                      <span className="project-team-member-details-role">Co-founder / Full-stack Engineer</span>
+                      <img className="suffix-icon" src={ArrowUpRightGradient} alt="Arrow up right" />
+                    </div>
+                  </a>
+                  <a className="project-team-member" href="https://www.linkedin.com/in/ericrabiner/" target="_blank" rel="noreferrer">
+                    <img className="project-team-member-avatar" src={EricRabiner} alt="Eric Rabiner's avatar"/>
+                    <div className="project-team-member-details">
+                      <span>Eric Rabiner</span>
+                      <div className="divider-inline-h-round" />
+                      <span className="project-team-member-details-role">Co-founder / Full-stack Engineer</span>
+                      <img className="suffix-icon" src={ArrowUpRightGradient} alt="Arrow up right" />
+                    </div>
+                  </a> 
+                  <a className="project-team-member" href="https://www.linkedin.com/in/brianquach24/" target="_blank" rel="noreferrer">
+                    <img className="project-team-member-avatar" src={BrianQuach} alt="Brian Quach's avatar"/>
+                    <div className="project-team-member-details">
+                      <span>Brian Quach</span>
+                      <div className="divider-inline-h-round" />
+                      <span className="project-team-member-details-role">Full-stack Engineer</span>
+                      <img className="suffix-icon" src={ArrowUpRightGradient} alt="Arrow up right" />
+                    </div>
+                  </a> 
+                  <a className="project-team-member" href="https://www.linkedin.com/in/norman-wuwei-liu/" target="_blank" rel="noreferrer">
+                    <img className="project-team-member-avatar" src={NaomiLiu} alt="Naomi Liu's avatar"/>
+                    <div className="project-team-member-details">
+                      <span>Naomi Liu</span>
+                      <div className="divider-inline-h-round" />
+                      <span className="project-team-member-details-role">Full-stack Engineer</span>
+                      <img className="suffix-icon" src={ArrowUpRightGradient} alt="Arrow up right" />
+                    </div>
+                  </a> 
+                  <a className="project-team-member" href="https://www.linkedin.com/in/leozhu1996/" target="_blank" rel="noreferrer">
+                    <img className="project-team-member-avatar" src={LeoZhu} alt="Leo Zhu's avatar"/>
+                    <div className="project-team-member-details">
+                      <span>Leo Zhu</span>
+                      <div className="divider-inline-h-round" />
+                      <span className="project-team-member-details-role">Product Manager</span>
+                      <img className="suffix-icon" src={ArrowUpRightGradient} alt="Arrow up right" />
+                    </div>
+                  </a> 
+                  <a className="project-team-member" href="https://www.linkedin.com/in/kirby-woo/" target="_blank" rel="noreferrer">
+                    <img className="project-team-member-avatar" src={KirbyWoo} alt="Kirby Woo's avatar"/>
+                    <div className="project-team-member-details">
+                      <span>Kirby Woo</span>
+                      <div className="divider-inline-h-round" />
+                      <span className="project-team-member-details-role">Product Designer </span>
                       <img className="suffix-icon" src={ArrowUpRightGradient} alt="Arrow up right" />
                     </div>
                   </a> 
