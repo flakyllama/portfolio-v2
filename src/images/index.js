@@ -9,11 +9,11 @@ import WavingHand from '../images/emojis/waving-hand.svg'
 import Avatar from '../images/personal-avatar.webp'
 
 // Sobol
-import BryanPeters from '../images/avatars/sobol/bryan-peters.png'
-import VictorLeipnik from '../images/avatars/sobol/victor-leipnik.png'
-import DamianSarzynski from '../images/avatars/sobol/damian-sarzynski.png'
-import VladKutsenko from '../images/avatars/sobol/vlad-kutsenko.png'
-import LeifDejong from '../images/avatars/sobol/leif-dejong.png'
+import BryanPeters from '../images/avatars/sobol/bryan-peters.webp'
+import VictorLeipnik from '../images/avatars/sobol/victor-leipnik.webp'
+import DamianSarzynski from '../images/avatars/sobol/damian-sarzynski.webp'
+import VladKutsenko from '../images/avatars/sobol/vlad-kutsenko.webp'
+import LeifDejong from '../images/avatars/sobol/leif-dejong.webp'
 import SobolMockup from '../images/projects/sobol.webp'
 
 // Prospr
