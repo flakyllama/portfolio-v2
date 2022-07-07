@@ -1,0 +1,19 @@
+.tag {
+    padding: 2px 8px;
+    border-radius: 50px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+// Variants
+
+.sobol {
+    background: $p1;
+    color: $p0;
+}
+
+.prospr {
+    background: $y1;
+    color: $y0;
+}

@@ -14,8 +14,9 @@
   // height: 100%;
 
   .main{
-
     .bio {
+      visibility: hidden;
+      animation: fadeInLeft 0.5s linear 0s forwards;
       margin-bottom: 120px;
 
       .bio-avatar {
@@ -55,6 +56,8 @@
     .projects {
 
       .section-title{
+        visibility: hidden;
+        animation: fadeInLeft 0.5s linear 0.75s forwards;
         font-size: 18px;
         line-height: 26px;
         letter-spacing: 1.5px;
@@ -63,9 +66,12 @@
       }
 
       .project-container {
+        visibility: hidden;
         display: grid;
         gap: 48px;
         margin-top: 48px;
+
+        animation: fadeInLeft 0.5s linear 1.5s forwards;
 
         .project {
 
@@ -77,8 +83,29 @@
             font-size: 16px;
             line-height: 28px;
 
-            .link-btn {
-              left: -8px;
+            .project-chips {
+              display: inline-grid;
+              grid-template-columns: auto auto auto;
+              align-items: center;
+              gap: 12px;
+              width: max-content;
+
+              .link-btn {
+                left: -8px;
+                margin-right: -12px;
+              }
+
+              .divider-inline-h-round {
+                height: 4px;
+                width: 4px;
+                border-radius: 50px;
+                background: $n2;
+              }
+
+              .tag {
+                max-width: max-content;
+                left: 8px;
+              }
             }
             
             .project-description {
@@ -90,7 +117,7 @@
             margin-top: 32px;
             display: grid;
             grid-template-rows: repeat(3, auto);
-            gap: 16px;
+            gap: 8px;
 
             .project-team-label {
               font-size: 14px;
@@ -113,12 +140,13 @@
               .project-team-member-avatar {
                 height: 28px;
                 width: 28px;
+                border-radius: 50px;
               }
 
               .project-team-member-details {
                 display: inline-grid;
                 grid-template-columns: auto auto auto auto;
-                gap: 8px;
+                gap: 12px;
                 align-items: center;
                 color: $n4;
 
@@ -152,13 +180,22 @@
             outline: $n2 solid 2px;
           }
         }
+
+        .project-divider {
+          height: 2px;
+          width: 100%;
+          background: $n1;
+        }
       }
     }
   }
 
   .footer {
+    bottom: 64px;
     align-self: flex-end;
     display: grid;
+    visibility: hidden;
+    animation: fadeInLeft 0.5s linear 0.75s forwards;
     grid-template-columns: repeat(4, auto);
     gap: 24px;
     height: max-content;
@@ -166,13 +203,12 @@
     justify-content: flex-end;
     align-items: center;
     position: sticky;
-    bottom: 64px;
 
     .nav-link {
       display: grid;
       grid-template-columns: repeat(2, auto);
       align-items: center;
-      color: $n5;
+      color: $n4;
 
       .suffix-icon {
         margin-left: 8px;

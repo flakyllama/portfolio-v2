@@ -11,7 +11,10 @@ import {
   DamianSarzynski,
   VladKutsenko,
   LeifDejong,
-  SobolMockup
+  SobolMockup,
+  NathanKnight,
+  ChrisTran,
+  WilliamNippard
 } from '../images/index.js'
 
 const Landing = () => (
@@ -40,16 +43,20 @@ const Landing = () => (
           <div className="projects">
             <span className="section-title">PROJECTS</span>
             <div className="project-container">
-              <div className="project">
+              <div title="Sobol" className="project">
                 <div className="project-content">
-                  <a className="link-btn" href="https://www.sobol.io">
-                    Sobol <img className="suffix-icon" src={ArrowUpRightGradient} alt="Arrow up right"/>
-                  </a>
+                  <div className="project-chips">
+                    <a className="link-btn" href="https://www.sobol.io">
+                      Sobol <img className="suffix-icon" src={ArrowUpRightGradient} alt="Arrow up right"/>
+                    </a>
+                    <div className="divider-inline-h-round" />
+                    <div className="tag sobol">Web3</div>
+                  </div>
                   <p className="project-header">
                     Sobol is building a platform for DAOs to use in managing their data, operations and community.
                   </p>
                   <p className="project-description">
-                    As a solo designer, I work  with the product team to deliver value to users, while improving on aesthetics and functionality.
+                    As a solo designer, I work closely with the product team to deliver value to users, while improving on aesthetics, functionality, and scalability.
                   </p>
                 </div>
                 <div className="project-team">
@@ -100,9 +107,56 @@ const Landing = () => (
                     </div>
                   </a> 
                 </div>
-                <div>
-                  <img className="project-mockup" src={SobolMockup} alt="Sobol mockup"/>
+                <img className="project-mockup" src={SobolMockup} alt="Sobol mockup"/>
+              </div>
+              <div className="project-divider" />
+              <div title="Prospr" className="project">
+                <div className="project-content">
+                  <div className="project-chips">
+                    <a className="link-btn" href="https://www.prospr.cc">
+                      Prospr <img className="suffix-icon" src={ArrowUpRightGradient} alt="Arrow up right"/>
+                    </a>
+                    <div className="divider-inline-h-round" />
+                    <div className="tag prospr">Non-profit Tech</div>
+                  </div>
+                  <p className="project-header">
+                    Prospr helps non-profits build  branded, conversational donation forms to improve donor engagement and conversion.
+                  </p>
+                  <p className="project-description">
+                    We built an app to help non-profits build  branded, conversational donation forms to improve donor engagement and conversion.
+                  </p>
                 </div>
+                <div className="project-team">
+                  <span className="project-team-label">TEAM</span>
+                  <a className="project-team-member" href="https://www.linkedin.com/in/christopher-tran/" target="_blank" rel="noreferrer">
+                    <img className="project-team-member-avatar" src={ChrisTran} alt="Chris Tran' avatar" />
+                    <div className="project-team-member-details">
+                      <span>Chris Tran</span>
+                      <div className="divider-inline-h-round" />
+                      <span className="project-team-member-details-role">Product Designer</span>
+                      <img className="suffix-icon" src={ArrowUpRightGradient} alt="Arrow up right" />
+                    </div>
+                  </a>
+                  <a className="project-team-member" href="https://www.linkedin.com/in/nathan-knight/" target="_blank" rel="noreferrer">
+                    <img className="project-team-member-avatar" src={NathanKnight} alt="Nathan Knight's avatar"/>
+                    <div className="project-team-member-details">
+                      <span>Nathan Knight</span>
+                      <div className="divider-inline-h-round" />
+                      <span className="project-team-member-details-role">Full-stack Engineer</span>
+                      <img className="suffix-icon" src={ArrowUpRightGradient} alt="Arrow up right" />
+                    </div>
+                  </a> 
+                  <a className="project-team-member" href="https://www.linkedin.com/in/williamnippard/" target="_blank" rel="noreferrer">
+                    <img className="project-team-member-avatar" src={WilliamNippard} alt="William Nippard's avatar"/>
+                    <div className="project-team-member-details">
+                      <span>William Nippard</span>
+                      <div className="divider-inline-h-round" />
+                      <span className="project-team-member-details-role">Full-stack Engineer</span>
+                      <img className="suffix-icon" src={ArrowUpRightGradient} alt="Arrow up right" />
+                    </div>
+                  </a> 
+                </div>
+                <img className="project-mockup" src={SobolMockup} alt="Sobol mockup"/>
               </div>
             </div>
           </div>

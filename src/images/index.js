@@ -16,6 +16,11 @@ import VladKutsenko from '../images/avatars/sobol/vlad-kutsenko.png'
 import LeifDejong from '../images/avatars/sobol/leif-dejong.png'
 import SobolMockup from '../images/projects/sobol.webp'
 
+// Prospr
+import ChrisTran from '../images/avatars/prospr/chris-tran.webp'
+import NathanKnight from '../images/avatars/prospr/nathan-knight.webp'
+import WilliamNippard from '../images/avatars/prospr/william-nippard.webp'
+
 
 export {
     ArrowUpRightNeutral,
@@ -28,5 +33,8 @@ export {
     DamianSarzynski,
     VladKutsenko,
     LeifDejong,
-    SobolMockup
+    SobolMockup,
+    ChrisTran,
+    NathanKnight,
+    WilliamNippard
   };
