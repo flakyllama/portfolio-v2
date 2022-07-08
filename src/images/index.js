@@ -29,26 +29,36 @@ import NaomiLiu from '../images/avatars/arctic-labs/naomi-liu.webp'
 import LeoZhu from '../images/avatars/arctic-labs/leo-zhu.webp'
 import KirbyWoo from '../images/avatars/arctic-labs/kirby-woo.webp'
 
+// VendorPM
+
+import DylanSher from '../images/avatars/vendorpm/dylan-sher.webp'
+import HussienHussien from '../images/avatars/vendorpm/hussien-hussien.webp'
+
 
 export {
     ArrowUpRightNeutral,
     ArrowUpRightGradient,
     WavingHand,
     Avatar,
-    // Sobo
+    // Sobol
     BryanPeters,
     VictorLeipnik,
     DamianSarzynski,
     VladKutsenko,
     LeifDejong,
     SobolMockup,
+    // Prospr
     ChrisTran,
     NathanKnight,
     WilliamNippard,
+    // Arctic Labs
     MatthewHam,
     EricRabiner,
     BrianQuach,
     NaomiLiu,
     LeoZhu,
-    KirbyWoo
+    KirbyWoo,
+    //VendorPM
+    DylanSher,
+    HussienHussien
   };
