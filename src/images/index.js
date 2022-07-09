@@ -1,5 +1,6 @@
+import React from 'react'
+
 /* Icons */
-import ArrowUpRightNeutral from '../images/icons/arrow-up-right-neutral.svg'
 import ArrowUpRightGradient from '../images/icons/arrow-up-right-gradient.svg'
 
 /* Emojis */
@@ -34,12 +35,11 @@ import KirbyWoo from '../images/avatars/arctic-labs/kirby-woo.webp'
 import DylanSher from '../images/avatars/vendorpm/dylan-sher.webp'
 import HussienHussien from '../images/avatars/vendorpm/hussien-hussien.webp'
 
-
 export {
-    ArrowUpRightNeutral,
     ArrowUpRightGradient,
     WavingHand,
     Avatar,
+
     // Sobol
     BryanPeters,
     VictorLeipnik,
@@ -47,10 +47,12 @@ export {
     VladKutsenko,
     LeifDejong,
     SobolMockup,
+
     // Prospr
     ChrisTran,
     NathanKnight,
     WilliamNippard,
+
     // Arctic Labs
     MatthewHam,
     EricRabiner,
@@ -58,7 +60,8 @@ export {
     NaomiLiu,
     LeoZhu,
     KirbyWoo,
-    //VendorPM
+
+    // VendorPM
     DylanSher,
-    HussienHussien
+    HussienHussien,
   };

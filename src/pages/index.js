@@ -2,7 +2,6 @@ import React from 'react'
 import '../styles/index.scss'
 import '../images/index.js'
 import { 
-  ArrowUpRightNeutral,
   ArrowUpRightGradient,
   WavingHand,
   Avatar,
@@ -115,7 +114,9 @@ const Landing = () => (
                     </div>
                   </a> 
                 </div>
-                <img className="project-mockup" src={SobolMockup} alt="Sobol mockup"/>
+                <div className="project-mockup sobol-mockup">
+                  <img src={SobolMockup} alt="Sobol mockup"/>
+                </div>
               </div>
               <div className="project-divider" />
               <div title="Prospr" className="project">
@@ -164,7 +165,9 @@ const Landing = () => (
                     </div>
                   </a> 
                 </div>
-                <img className="project-mockup" src={SobolMockup} alt="Sobol mockup"/>
+                <div className="project-mockup prospr-mockup">
+                  <img src={SobolMockup} alt="Prospr mockup"/>
+                </div>
               </div>
               <div className="project-divider" />
               <div title="Arctic Labs" className="project">
@@ -240,7 +243,9 @@ const Landing = () => (
                     </div>
                   </a> 
                 </div>
-                <img className="project-mockup" src={SobolMockup} alt="Sobol mockup"/>
+                <div className="project-mockup al-mockup">
+                  <img src={SobolMockup} alt="Arctic Labs mockup"/>
+                </div>
               </div>
               <div title="VendorPM" className="project">
                 <div className="project-content">
@@ -249,7 +254,7 @@ const Landing = () => (
                       VendorPM <img className="suffix-icon" src={ArrowUpRightGradient} alt="Arrow up right"/>
                     </a>
                     <div className="divider-inline-h-round" />
-                    <div className="tag vendorpm">Proptech</div>
+                    <div className="tag vendorpm">PropTech</div>
                   </div>
                   <p className="project-header">
                     It suddenly struck me that that tiny pea, pretty and blue, was the Earth. I put up my thumb and shut one eye, and my thumb blotted out the planet Earth.
@@ -317,7 +322,9 @@ const Landing = () => (
                     </div>
                   </a> 
                 </div>
-                <img className="project-mockup" src={SobolMockup} alt="Sobol mockup"/>
+                <div className="project-mockup vpm-mockup">
+                  <img src={SobolMockup} alt="VendorPM mockup"/>
+                </div>
               </div>
             </div>
           </div>
@@ -326,11 +333,11 @@ const Landing = () => (
           <a className="nav-link">
             Process
           </a>
-          <a className="nav-link">
+          <a className="nav-link" href="https://read.cv/fardeenchowdhury" target="_blank" rel="noreferrer">
             <span>
               Resume
             </span>
-            <img className="suffix-icon" src={ArrowUpRightNeutral} alt="Arrow up right"/>
+            <img className="suffix-icon" src={ArrowUpRightGradient} alt="Arrow up right" />
           </a>
           <div className="divider-inline-h-rect" />
           <a className="nav-link email-address" href="mailto: fardeen.h.chowdhury@gmail.com">

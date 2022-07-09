@@ -3,7 +3,7 @@
 .inner {
   position: relative;
   display: grid;
-  grid-template-columns: 620px 560px;
+  grid-template-columns: 668px 560px;
   box-sizing: border-box;
   -webkit-box-pack: justify;
   -moz-box-pack: justify;
@@ -104,7 +104,7 @@
                 height: 4px;
                 width: 4px;
                 border-radius: 50px;
-                background: $n3;
+                background: $n2;
               }
 
               .tag {
@@ -176,30 +176,46 @@
                   height: 4px;
                   width: 4px;
                   border-radius: 50px;
-                  background: $n3;
+                  background: $n2;
                 }
               }
 
-              &:hover {
+              &:hover, &:active {
                 background: rgba(255,255,255,0.05);
 
                 .project-team-member-details {
                   color: $n6
                 }
               }
-
-              &:link, &:visited, &:active {
-                color: inherit;
-              }
             }
           }
 
           .project-mockup {
             margin-top: 32px;
+            padding: 24px;
             width: 620px;
-            height: 303px;
-            border-radius: 8px;
-            outline: $n2 solid 2px;
+            height: max-content;
+            border-radius: 16px;
+
+            img {
+              width: 100%;
+            }
+          }
+
+          .sobol-mockup {
+            background: $n1;
+          }
+
+          .prospr-mockup {
+            background: $n3;
+          }
+
+          .al-mockup {
+            background: $n5;
+          }
+
+          .vpm-mockup {
+            background: $n2;
           }
         }
 
@@ -220,7 +236,7 @@
     animation: fadeInLeft 0.5s linear 0.75s forwards;
     -moz-animation: fadeInLeft 0.5s linear 0.75s forwards;
     grid-template-columns: repeat(4, auto);
-    gap: 24px;
+    gap: 16px;
     height: max-content;
     -webkit-box-pack: end;
     -moz-box-pack: end;
@@ -232,14 +248,23 @@
       display: grid;
       grid-template-columns: repeat(2, auto);
       align-items: center;
+      width: max-content;
+      padding: 8px 12px;
+      border-radius: 12px;
       color: $n4;
+      text-decoration: none;
+
+      .prefix-icon {
+        margin-right: 8px;
+      }
 
       .suffix-icon {
         margin-left: 8px;
       }
 
-      .prefix-icon {
-        margin-right: 8px;
+      &:hover, &:active {
+        background: rgba(255,255,255,0.05);
+        color: $n6;
       }
     }
 
@@ -251,7 +276,7 @@
     width: 2px;
     height: 16px;
     border-radius: 50px;
-    background: $n3;
+    background: $n2;
     }
   }
 }
