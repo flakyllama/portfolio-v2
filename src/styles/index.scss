@@ -17,7 +17,7 @@
   .main{
     .bio {
       visibility: hidden;
-      animation: fadeInLeft 0.5s linear 0s forwards;
+      animation: fadeInLeft 0.5s linear 0.25s forwards;
       margin-bottom: 120px;
 
       .bio-avatar {
@@ -59,8 +59,8 @@
 
       .section-title{
         visibility: hidden;
-        animation: fadeInLeft 0.5s linear 0.75s forwards;
-        -moz-animation: fadeInLeft 0.5s linear 0.75s forwards;
+        animation: fadeInLeft 0.5s linear 1s forwards;
+        -moz-animation: fadeInLeft 0.5s linear 1s forwards;
         font-size: 18px;
         line-height: 26px;
         letter-spacing: 1.5px;
@@ -74,8 +74,8 @@
         gap: 48px;
         margin-top: 48px;
 
-        animation: fadeInLeft 0.5s linear 1.5s forwards;
-        -moz-animation: fadeInLeft 0.5s linear 1.5s forwards;
+        animation: fadeInLeft 0.5s linear 1.75s forwards;
+        -moz-animation: fadeInLeft 0.5s linear 1.75s forwards;
 
 
         .project {
@@ -96,8 +96,8 @@
               width: max-content;
 
               .link-btn {
-                left: -8px;
-                margin-right: -12px;
+                left: -12px;
+                margin-right: -16px;
               }
 
               .divider-inline-h-round {
@@ -146,6 +146,7 @@
                 height: 28px;
                 width: 28px;
                 border-radius: 50px;
+                opacity: 0.8;
               }
 
               .placeholder-avatar {
@@ -156,6 +157,7 @@
                 width: 28px;
                 border-radius: 50px;
                 background: $n3;
+                color: $n6;
 
                 p {
                   font-size: 10px;
@@ -178,6 +180,10 @@
                   border-radius: 50px;
                   background: $n2;
                 }
+
+                .project-team-member-details-role {
+                  margin-right: -8px;
+                }
               }
 
               &:hover, &:active {
@@ -186,9 +192,13 @@
                 .project-team-member-details {
                   color: $n6
                 }
+
+                .project-team-member-avatar {
+                  opacity: 1;
               }
             }
           }
+        }
 
           .project-mockup {
             margin-top: 32px;
@@ -233,8 +243,8 @@
     align-self: flex-end;
     display: grid;
     visibility: hidden;
-    animation: fadeInLeft 0.5s linear 0.75s forwards;
-    -moz-animation: fadeInLeft 0.5s linear 0.75s forwards;
+    animation: fadeInLeft 0.5s linear 1s forwards;
+    -moz-animation: fadeInLeft 0.5s linear 1s forwards;
     grid-template-columns: repeat(4, auto);
     gap: 16px;
     height: max-content;

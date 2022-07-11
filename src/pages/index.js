@@ -14,12 +14,14 @@ import {
   NathanKnight,
   ChrisTran,
   WilliamNippard,
+  ProsprMockup,
   KirbyWoo,
   LeoZhu,
   EricRabiner,
   MatthewHam,
   NaomiLiu,
   BrianQuach,
+  ArcticLabsMockup,
   DylanSher,
   HussienHussien
 } from '../images/index.js'
@@ -129,10 +131,11 @@ const Landing = () => (
                     <div className="tag prospr">Non-profit Tech</div>
                   </div>
                   <p className="project-header">
-                    Prospr helps non-profits build  branded, conversational donation forms to improve donor engagement and conversion.
+                    Prospr helps non-profits build branded, conversational donation forms to improve donor engagement and conversion.
                   </p>
                   <p className="project-description">
-                    We built an app to help non-profits build  branded, conversational donation forms to improve donor engagement and conversion.
+                    We created a no-code donation form builder and donor management system to handle and better fundraising efforts for non-profits.
+                    As a startup, we all carry out a range of functions from sales to product development.
                   </p>
                 </div>
                 <div className="project-team">
@@ -142,7 +145,7 @@ const Landing = () => (
                     <div className="project-team-member-details">
                       <span>Chris Tran</span>
                       <div className="divider-inline-h-round" />
-                      <span className="project-team-member-details-role">Product Designer</span>
+                      <span className="project-team-member-details-role">Co-founder / Product Designer</span>
                       <img className="suffix-icon" src={ArrowUpRightGradient} alt="Arrow up right" />
                     </div>
                   </a>
@@ -151,7 +154,7 @@ const Landing = () => (
                     <div className="project-team-member-details">
                       <span>Nathan Knight</span>
                       <div className="divider-inline-h-round" />
-                      <span className="project-team-member-details-role">Full-stack Engineer</span>
+                      <span className="project-team-member-details-role">Co-founder / Full-stack Engineer</span>
                       <img className="suffix-icon" src={ArrowUpRightGradient} alt="Arrow up right" />
                     </div>
                   </a> 
@@ -160,13 +163,13 @@ const Landing = () => (
                     <div className="project-team-member-details">
                       <span>William Nippard</span>
                       <div className="divider-inline-h-round" />
-                      <span className="project-team-member-details-role">Full-stack Engineer</span>
+                      <span className="project-team-member-details-role">Co-founder / Full-stack Engineer</span>
                       <img className="suffix-icon" src={ArrowUpRightGradient} alt="Arrow up right" />
                     </div>
                   </a> 
                 </div>
                 <div className="project-mockup prospr-mockup">
-                  <img src={SobolMockup} alt="Prospr mockup"/>
+                  <img src={ProsprMockup} alt="Prospr mockup"/>
                 </div>
               </div>
               <div className="project-divider" />
@@ -180,10 +183,11 @@ const Landing = () => (
                     <div className="tag arctic-labs">Dev Shop</div>
                   </div>
                   <p className="project-header">
-                    It suddenly struck me that that tiny pea, pretty and blue, was the Earth. I put up my thumb and shut one eye, and my thumb blotted out the planet Earth.
+                    Arctic Labs is a software development group that builds custom software for clients to bring their ideas to life. 
                   </p>
                   <p className="project-description">
-                    Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next 10.
+                    I lead design efforts on client projects. Examples include an internal sales CRM for a real-estate brokerage and a donation-based 
+                    fantasy sports app for a non-profit.
                   </p>
                 </div>
                 <div className="project-team">
@@ -244,7 +248,7 @@ const Landing = () => (
                   </a> 
                 </div>
                 <div className="project-mockup al-mockup">
-                  <img src={SobolMockup} alt="Arctic Labs mockup"/>
+                  <img src={ArcticLabsMockup} alt="Arctic Labs mockup"/>
                 </div>
               </div>
               <div title="VendorPM" className="project">
@@ -257,10 +261,11 @@ const Landing = () => (
                     <div className="tag vendorpm">PropTech</div>
                   </div>
                   <p className="project-header">
-                    It suddenly struck me that that tiny pea, pretty and blue, was the Earth. I put up my thumb and shut one eye, and my thumb blotted out the planet Earth.
+                    VendorPM is a software-enabled marketplace that modernizes the way property managers work with service vendors.
                   </p>
                   <p className="project-description">
-                    Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next 10.
+                    I joined the team as their first product designer while they were pre-seed. My work on the product and branding
+                    assisted in raising a Series A round and scaling the team to 60+ people.
                   </p>
                 </div>
                 <div className="project-team">
@@ -322,17 +327,20 @@ const Landing = () => (
                     </div>
                   </a> 
                 </div>
-                <div className="project-mockup vpm-mockup">
+                {/* <div className="project-mockup vpm-mockup">
                   <img src={SobolMockup} alt="VendorPM mockup"/>
                 </div>
+                */}
               </div>
             </div>
           </div>
         </main>
         <footer className="footer">
+          {/*
           <a className="nav-link">
             Process
           </a>
+          */}
           <a className="nav-link" href="https://read.cv/fardeenchowdhury" target="_blank" rel="noreferrer">
             <span>
               Resume
