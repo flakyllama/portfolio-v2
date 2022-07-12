@@ -17,13 +17,14 @@
   .main{
     .bio {
       visibility: hidden;
-      animation: fadeInLeft 0.5s linear 0.25s forwards;
-      -moz-animation: fadeInLeft 0.5s linear 0.25s forwards;
       margin-bottom: 120px;
 
       .bio-avatar {
         width: 80px;
         height: 80px;
+
+        animation: fadeInLeft 0.5s linear 0.25s forwards;
+        -moz-animation: fadeInLeft 0.5s linear 0.25s forwards;
       }
 
       .bio-content{
@@ -40,6 +41,9 @@
           font-weight: 500;
           color: $n6;
 
+          animation: fadeInLeft 0.5s linear 0.35s forwards;
+          -moz-animation: fadeInLeft 0.5s linear 0.35s forwards;
+
           .bio-header-gradient {
             font-weight: 600;
             background: $gradient;
@@ -55,13 +59,22 @@
           font-size: 16px;
           line-height: 28px;
 
+          animation: fadeInLeft 0.5s linear 0.45s forwards;
+          -moz-animation: fadeInLeft 0.5s linear 0.45s forwards;
+
           span {
             color: $n4;
           }
         }
 
-        .bio-construction-emoji {
-          color: $n6;
+        .tag {
+
+          animation: fadeInLeft 0.5s linear 0.55s forwards;
+          -moz-animation: fadeInLeft 0.5s linear 0.55s forwards;
+
+          .bio-construction-emoji {
+            color: $n6;
+          }
         }
       }
     }
@@ -70,8 +83,8 @@
 
       .section-title{
         visibility: hidden;
-        animation: fadeInLeft 0.5s linear 1s forwards;
-        -moz-animation: fadeInLeft 0.5s linear 1s forwards;
+        animation: fadeInLeft 0.5s linear 1.3s forwards;
+        -moz-animation: fadeInLeft 0.5s linear 1.3s forwards;
         font-size: 18px;
         line-height: 26px;
         letter-spacing: 1.5px;
@@ -85,8 +98,8 @@
         gap:80px;
         margin-top: 48px;
 
-        animation: fadeInLeft 0.5s linear 1.75s forwards;
-        -moz-animation: fadeInLeft 0.5s linear 1.75s forwards;
+        animation: fadeInLeft 0.5s linear 2s forwards;
+        -moz-animation: fadeInLeft 0.5s linear 2s forwards;
 
         .project {
 
@@ -176,8 +189,8 @@
                 height: 28px;
                 width: 28px;
                 border-radius: 50px;
-                background: $n3;
-                color: $n6;
+                background: $n2;
+                color: $n5;
 
                 p {
                   font-size: 10px;
@@ -215,56 +228,61 @@
 
                 .project-team-member-avatar {
                   opacity: 1;
+                }
+
+                .placeholder-avatar {
+                  background: $n3;
+                  color: $n6;
+                }
               }
             }
           }
         }
+      }
 
-          .project-mockup {
-            margin-top: 32px;
-            padding: 24px;
-            width: 620px;
-            height: max-content;
-            border-radius: 16px;
+      .project-mockup {
+        margin-top: 32px;
+        padding: 24px;
+        width: 620px;
+        height: max-content;
+        border-radius: 16px;
 
-            img {
-              width: 100%;
-            }
-          }
-
-          .sobol-mockup {
-            background: $n1;
-          }
-
-          .prospr-mockup {
-            background: $n3;
-          }
-
-          .al-mockup {
-            background: $n5;
-          }
-
-          .vpm-mockup {
-            background: $n2;
-          }
-        }
-
-        .project-divider {
-          height: 2px;
+        img {
           width: 100%;
-          background: $n2;
         }
       }
+
+      .sobol-mockup {
+        background: $n1;
+      }
+
+      .prospr-mockup {
+        background: $n2;
+      }
+
+      .al-mockup {
+        background: $n5;
+      }
+
+      .vpm-mockup {
+        background: $n3;
+      }
     }
-  }
+
+      .project-divider {
+        height: 2px;
+        width: 100%;
+        background: $n2;
+      }
+    }
 
   .footer {
     bottom: 64px;
     align-self: flex-end;
     display: grid;
     visibility: hidden;
-    animation: fadeInLeft 0.5s linear 1s forwards;
-    -moz-animation: fadeInLeft 0.5s linear 1s forwards;
+    animation: fadeInLeft 0.5s linear 1.3s forwards;
+    -moz-animation: fadeInLeft 0.5s linear 1.3s forwards;
     grid-template-columns: repeat(4, auto);
     gap: 16px;
     height: max-content;

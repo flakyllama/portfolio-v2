@@ -23,7 +23,8 @@ import {
   BrianQuach,
   ArcticLabsMockup,
   DylanSher,
-  HussienHussien
+  HussienHussien,
+  VendorPMMockup
 } from '../images/index.js'
 
 const Landing = () => (
@@ -31,7 +32,7 @@ const Landing = () => (
     <head>
       <meta charSet="utf-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <meta name="description" content="I'm a self-taught product designer with a background in biology/bioinformatics and 5 years of experience."></meta>
+      <meta name="description" content="I'm a self-taught product designer with a background in biology/bioinformatics and 4 years of design experience." />
       <title>Fardeen Chowdhury — Product Designer</title>
       <style>
         @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
@@ -50,9 +51,11 @@ const Landing = () => (
                 I&#39;m a product designer that likes to craft cool things.
                 Currently based out of Toronto, Canada <span>(GMT - 3)</span>.
               </p>
-              <p>
-              <span className="bio-construction-emoji">🚧</span> This site is still under construction. <span className="bio-construction-emoji">🚧</span>
-              </p>
+              <div className="tag alert">
+                <span className="bio-construction-emoji">🚧</span> 
+                <p> This site is still under construction </p>
+                <span className="bio-construction-emoji">🚧</span>
+              </div>
             </div>
           </div>
           <div className="projects">
@@ -339,10 +342,9 @@ const Landing = () => (
                     </div>
                   </a> 
                 </div>
-                {/* <div className="project-mockup vpm-mockup">
-                  <img src={SobolMockup} alt="VendorPM mockup"/>
+                <div className="project-mockup vpm-mockup">
+                  <img src={VendorPMMockup} alt="VendorPM mockup"/>
                 </div>
-                */}
               </div>
             </div>
           </div>

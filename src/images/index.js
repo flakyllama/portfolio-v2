@@ -36,6 +36,7 @@ import ArcticLabsMockup from '../images/projects/arctic-labs.webp'
 
 import DylanSher from '../images/avatars/vendorpm/dylan-sher.webp'
 import HussienHussien from '../images/avatars/vendorpm/hussien-hussien.webp'
+import VendorPMMockup from '../images/projects/vendorpm.webp'
 
 export {
     ArrowUpRightGradient,
@@ -68,4 +69,5 @@ export {
     // VendorPM
     DylanSher,
     HussienHussien,
+    VendorPMMockup
   };

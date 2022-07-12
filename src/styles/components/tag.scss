@@ -1,5 +1,6 @@
 .tag {
     padding: 4px 12px;
+    width: fit-content;
     border-radius: 50px;
     font-size: 14px;
     line-height: 20px;
@@ -7,6 +8,15 @@
 }
 
 // Variants
+
+.alert {
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto auto auto;
+    gap: 4px;
+    background: $y1;
+    color: $y0;
+}
 
 .sobol {
     background: $p1;
@@ -19,8 +29,8 @@
 }
 
 .arctic-labs {
-    background: $y1;
-    color: $y0;
+    background: $b1;
+    color: $b0;
 }
 
 .vendorpm {
