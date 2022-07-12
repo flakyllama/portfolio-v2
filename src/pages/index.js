@@ -29,7 +29,10 @@ import {
 const Landing = () => (
   <html lang="en">
     <head>
-      <title>Fardeen Chowdhury - Product Designer</title>
+      <meta charSet="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <meta name="description" content="I'm a self-taught product designer with a background in biology/bioinformatics and 5 years of experience."></meta>
+      <title>Fardeen Chowdhury — Product Designer</title>
       <style>
         @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
       </style>
@@ -45,7 +48,10 @@ const Landing = () => (
               </span>
               <p className="bio-description">
                 I&#39;m a product designer that likes to craft cool things.
-                Currently based out of Toronto, Canada (GMT - 3).
+                Currently based out of Toronto, Canada <span>(GMT - 3)</span>.
+              </p>
+              <p>
+              <span className="bio-construction-emoji">🚧</span> This site is still under construction. <span className="bio-construction-emoji">🚧</span>
               </p>
             </div>
           </div>
@@ -55,17 +61,19 @@ const Landing = () => (
               <div title="Sobol" className="project">
                 <div className="project-content">
                   <div className="project-chips">
-                    <a className="link-btn" href="https://www.sobol.io" target="_blank" rel="noreferrer">
-                      Sobol <img className="suffix-icon" src={ArrowUpRightGradient} alt="Arrow up right"/>
+                    <a className="link-btn-wrapper" href="https://www.sobol.io" target="_blank" rel="noreferrer">
+                      <div className="link-btn">
+                        Sobol <img className="suffix-icon" src={ArrowUpRightGradient} alt="Arrow up right"/>
+                      </div>
                     </a>
-                    <div className="divider-inline-h-round" />
+                    <div className="divider-inline-h-rect" />
                     <div className="tag sobol">Web3</div>
                   </div>
                   <p className="project-header">
                     Sobol is building a platform for DAOs to use in managing their data, operations and community.
                   </p>
                   <p className="project-description">
-                    As a solo designer, I work closely with the product team to deliver value to users, while improving on aesthetics, functionality, and scalability.
+                    As a solo designer, I work closely with the product team to deliver value to users while improving on aesthetics, functionality, and scalability.
                   </p>
                 </div>
                 <div className="project-team">
@@ -120,21 +128,22 @@ const Landing = () => (
                   <img src={SobolMockup} alt="Sobol mockup"/>
                 </div>
               </div>
-              <div className="project-divider" />
               <div title="Prospr" className="project">
                 <div className="project-content">
                   <div className="project-chips">
-                    <a className="link-btn" href="https://www.prospr.cc" target="_blank" rel="noreferrer">
-                      Prospr <img className="suffix-icon" src={ArrowUpRightGradient} alt="Arrow up right"/>
+                    <a className="link-btn-wrapper" href="https://www.prospr.cc" target="_blank" rel="noreferrer">
+                      <div className="link-btn">
+                       Prospr <img className="suffix-icon" src={ArrowUpRightGradient} alt="Arrow up right"/>
+                      </div>
                     </a>
-                    <div className="divider-inline-h-round" />
+                    <div className="divider-inline-h-rect" />
                     <div className="tag prospr">Non-profit Tech</div>
                   </div>
                   <p className="project-header">
                     Prospr helps non-profits build branded, conversational donation forms to improve donor engagement and conversion.
                   </p>
                   <p className="project-description">
-                    We created a no-code donation form builder and donor management system to handle and better fundraising efforts for non-profits.
+                    We created a no-code donation form builder and donor management system to optimize fundraising efforts for non-profits.
                     As a startup, we all carry out a range of functions from sales to product development.
                   </p>
                 </div>
@@ -172,21 +181,22 @@ const Landing = () => (
                   <img src={ProsprMockup} alt="Prospr mockup"/>
                 </div>
               </div>
-              <div className="project-divider" />
               <div title="Arctic Labs" className="project">
                 <div className="project-content">
                   <div className="project-chips">
-                    <a className="link-btn" href="https://arcticlabs.ca/" target="_blank" rel="noreferrer">
-                      Arctic Labs <img className="suffix-icon" src={ArrowUpRightGradient} alt="Arrow up right"/>
+                    <a className="link-btn-wrapper" href="https://arcticlabs.ca/" target="_blank" rel="noreferrer">
+                     <div className="link-btn">
+                        Arctic Labs <img className="suffix-icon" src={ArrowUpRightGradient} alt="Arrow up right"/>
+                     </div>
                     </a>
-                    <div className="divider-inline-h-round" />
-                    <div className="tag arctic-labs">Dev Shop</div>
+                    <div className="divider-inline-h-rect" />
+                    <div className="tag arctic-labs">Dev Agency</div>
                   </div>
                   <p className="project-header">
                     Arctic Labs is a software development group that builds custom software for clients to bring their ideas to life. 
                   </p>
                   <p className="project-description">
-                    I lead design efforts on client projects. Examples include an internal sales CRM for a real-estate brokerage and a donation-based 
+                    I lead design efforts on client projects, such as an internal sales CRM for a real-estate brokerage and a donation-based 
                     fantasy sports app for a non-profit.
                   </p>
                 </div>
@@ -254,10 +264,12 @@ const Landing = () => (
               <div title="VendorPM" className="project">
                 <div className="project-content">
                   <div className="project-chips">
-                    <a className="link-btn" href="https://vendorpm.com/" target="_blank" rel="noreferrer">
-                      VendorPM <img className="suffix-icon" src={ArrowUpRightGradient} alt="Arrow up right"/>
+                    <a className="link-btn-wrapper" href="https://vendorpm.com/" target="_blank" rel="noreferrer">
+                      <div className="link-btn">
+                        VendorPM <img className="suffix-icon" src={ArrowUpRightGradient} alt="Arrow up right"/>
+                      </div>
                     </a>
-                    <div className="divider-inline-h-round" />
+                    <div className="divider-inline-h-rect" />
                     <div className="tag vendorpm">PropTech</div>
                   </div>
                   <p className="project-header">

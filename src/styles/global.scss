@@ -7,13 +7,14 @@ html {
     background-color: $n0;
     color: $n6;
     font-family: 'Plus Jakarta Sans', sans-serif;
+    transition: all 0.2s linear;
+}
+
+body {
+    margin: 0;
 }
 
 p {
     margin: 0;
     font-weight: 300;
-}
-
-a {
-    transition: all 0.2s linear;
 }
