@@ -45,7 +45,7 @@ const Landing = () => (
             <img className="bio-avatar" src={Avatar} alt="Fardeen Chowdury's avatar"/>
             <div className="bio-content"> 
               <span className="bio-header">
-                Hey! I&#39;m <span className="bio-header-gradient">Fardeen Chowdhury</span>.
+                Hey! I&#39;m <span className="bio-header-gradient">Fardeen Chowdhury (he/him)</span>.
               </span>
               <p className="bio-description">
                 I&#39;m a product designer that likes to craft cool things.
@@ -147,7 +147,7 @@ const Landing = () => (
                   </p>
                   <p className="project-description">
                     We created a no-code donation form builder and donor management system to optimize fundraising efforts for non-profits.
-                    As a startup, we all carry out a range of functions from sales to product development.
+                    As co-founders, we all carry out a range of functions from sales to product development.
                   </p>
                 </div>
                 <div className="project-team">
@@ -276,7 +276,7 @@ const Landing = () => (
                     <div className="tag vendorpm">PropTech</div>
                   </div>
                   <p className="project-header">
-                    VendorPM is a software-enabled marketplace that modernizes the way property managers work with service vendors.
+                    VendorPM is a two-sided marketplace that modernizes how property managers work with service vendors.
                   </p>
                   <p className="project-description">
                     I joined the team as their first product designer while they were pre-seed. My work on the product and branding
@@ -350,11 +350,10 @@ const Landing = () => (
           </div>
         </main>
         <footer className="footer">
-          {/*
-          <a className="nav-link">
-            Process
+          {/* <a className="nav-link" href="/about">
+            About
           </a>
-          */}
+*/}
           <a className="nav-link" href="https://read.cv/fardeenchowdhury" target="_blank" rel="noreferrer">
             <span>
               Resume
@@ -365,7 +364,7 @@ const Landing = () => (
           <a className="nav-link email-address" href="mailto: fardeen.h.chowdhury@gmail.com">
             <img className="prefix-icon" src={WavingHand} alt="Waving hand emoji" />
             <span>
-              fardeen.h.chowdhury@gmail.com
+              Get in touch
             </span>
           </a>
         </footer>

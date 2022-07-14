@@ -23,3 +23,24 @@ a {
     -webkit-transition: all 0.2s linear;
     -moz-transition: all 0.2s linear;
 }
+
+// Media Queries
+
+@media only screen and (max-width: 720px) {
+    .inner {
+        padding: 80px 24px;
+
+        .project-team-member {
+            .divider-inline-h-round,
+            .project-team-member-details-role {
+                display: none;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 721px) {
+    .inner {
+        padding: 80px 48px;
+    }
+}
