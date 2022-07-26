@@ -280,7 +280,7 @@ const Landing = () => (
                   </p>
                   <p className="project-description">
                     I joined the team as their first product designer while they were pre-seed. My work on the product and branding
-                    assisted in raising a Series A round and scaling the team to 60+ people.
+                    assisted in raising a $6M seed round and scaling the team to 60+ people.
                   </p>
                 </div>
                 <div className="project-team">
@@ -353,7 +353,7 @@ const Landing = () => (
           {/* <a className="nav-link" href="/about">
             About
           </a>
-*/}
+          */}
           <a className="nav-link" href="https://read.cv/fardeenchowdhury" target="_blank" rel="noreferrer">
             <span>
               Resume
